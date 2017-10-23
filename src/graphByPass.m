@@ -1,4 +1,4 @@
-function [x,y] = graphByPass()
+function graphByPass()
   x = [];
   y = [];
   h = 1./8;
