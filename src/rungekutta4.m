@@ -12,11 +12,8 @@ function [xs,ys] = rungekutta4 ( f , xi , xf , yi ,h)
    
    xs = [xs,xi];
    ys = [ys,yi];
-    ######################
-   #if(h >= 1./1024)     #
-   # h = h./2;           #No estoy seguro de si esto va
-   #endif                #
-   ######################
-   
+   if(h >= 1./1024)     
+    h = h./2;           
+   endif                     
   endwhile
 endfunction
