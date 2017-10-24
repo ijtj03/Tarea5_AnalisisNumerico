@@ -1,0 +1,11 @@
+Para correr el codigo es importante seguir las siguientes instrucciones:
+    
+    1. Abra la terminal en la carpeta donde se encuentran los archivos, incluyendo main.m.
+    2. Digite octave-cli.
+    3. Digite run (main.m) .
+    4. El programa se abrira, luego se pide un valor inicial para el h, para graficar, se pide en terminal.
+    5. El programa mostrara tres figuras que corresponden a los resultados.
+
+Con respecto a la pregunta del punto 2.4 se analiza que:
+El metodo de ode23 se en menos tiempo que los otros dos, sin embargo usa mas puntos que ode45, este ultimo es el que usa menos puntos en total pero un tiempo intermedio.
+Por ultimo se tiene el RungenKutta4 con mas tiempo y mas puntos, para esta ODE concreta es mejor el metodo 
