@@ -42,6 +42,6 @@ function compareMethods()
   hold on
   bar([5],[length(yo23)],'b'),title('Pasos'), xlabel ("Metodos"), ylabel ("Cantidad Pasos"), legend("1:RK","2:ODE45","3:ODE23") # plot de la grafica de barras para comparar los pasos usados de los metodos
   hold off
-  axis([0 6 0 400])
+  axis([0 6 0 500])
   
 endfunction
