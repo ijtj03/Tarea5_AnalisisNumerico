@@ -7,5 +7,5 @@ Para correr el codigo es importante seguir las siguientes instrucciones:
     5. El programa mostrara tres figuras que corresponden a los resultados.
 
 Con respecto a la pregunta del punto 2.4 se analiza que:
-El metodo de ode23 se en menos tiempo que los otros dos, sin embargo usa menos puntos que ode45, este ultimo es el que usa mas puntos en total pero un tiempo intermedio.
-Por ultimo se tiene el RungenKutta4 con mas tiempo y mas puntos, para esta ODE concreta es mejor el metodo, debido a que las variaciones entre los pasos en muy minima por utilizar tantos puntos.
+El metodo de ode23 se en menos tiempo que los otros dos, sin embargo usa mas puntos que ode45, este ultimo es el que usa menos puntos en total pero un tiempo intermedio. Por ultimo se tiene el RungenKutta4 con mas tiempo y mas puntos.
+Para esta ODE concreta el mejor metodo es el RungenKutta4, debido a que las variaciones entre los pasos en muy minima por utilizar tantos puntos y asi el error es menor.
