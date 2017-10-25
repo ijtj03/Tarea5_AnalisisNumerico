@@ -15,7 +15,7 @@ function graphByPass() # metodo usado para graficar los pasos de metodo desarrol
     title ("Funcion que resuelve la ED"); # nombre de la grafica
     hold on;
   endwhile
-  #legend("h=1/8","h=1/16","h=1/32","h=1/64","h=1/128","h=1/256","h=1/512","h=1/1024");
+  legend("h=1/8","h=1/16","h=1/32","h=1/64","h=1/128","h=1/256","h=1/512","h=1/1024");
   hold off;
   figure(2); # desplegar en figura 2
   semilogy(x,y,'-b'); # grafico en ejes semilogaritmicos
